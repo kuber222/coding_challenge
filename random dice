@@ -1,0 +1,9 @@
+import random
+
+def roll_dice():
+    return random.randint(1, 6)
+
+# Simulate rolling the dice three times
+for _ in range(3):
+    result = roll_dice()
+    print("Dice roll result:", result)
